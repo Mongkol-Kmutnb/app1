@@ -1,13 +1,6 @@
 import React from 'react'
+import RefsClass from './refs-func'
+export default function App() {
+  return <RefsClass />
 
-import Button from './class-components';
-import { Calculator, Calculator2 } from './calculator';
-import { EventData2 } from './event-data';
-function App() {
-  return (
-    <>
-      <EventData2 />
-    </>
-  )
 }
-export default App;
